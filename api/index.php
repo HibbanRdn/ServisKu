@@ -12,22 +12,22 @@
  */
 ?>
 
-<?php require_once '../includes/header.php'; ?>
-<?php require_once '../includes/sidebar.php'; ?>
+<?php require_once __DIR__ . '/../includes/header.php'; ?>
+<?php require_once __DIR__ . '/../includes/sidebar.php'; ?>
 
 <div class="main">
 
-  <?php require_once '../includes/topbar.php'; ?>
+  <?php require_once __DIR__ . '/../includes/topbar.php'; ?>
 
-  <?php require_once '../pages/sales.php'; ?>
-  <?php require_once '../pages/marketing.php'; ?>
-  <?php require_once '../pages/cs.php'; ?>
-  <?php require_once '../pages/finance.php'; ?>
-  <?php require_once '../pages/hr.php'; ?>
-  <?php require_once '../pages/it.php'; ?>
-  <?php require_once '../pages/exec.php'; ?>
-  <?php require_once '../pages/pm.php'; ?>
+  <?php require_once __DIR__ . '/../pages/sales.php'; ?>
+  <?php require_once __DIR__ . '/../pages/marketing.php'; ?>
+  <?php require_once __DIR__ . '/../pages/cs.php'; ?>
+  <?php require_once __DIR__ . '/../pages/finance.php'; ?>
+  <?php require_once __DIR__ . '/../pages/hr.php'; ?>
+  <?php require_once __DIR__ . '/../pages/it.php'; ?>
+  <?php require_once __DIR__ . '/../pages/exec.php'; ?>
+  <?php require_once __DIR__ . '/../pages/pm.php'; ?>
 
 </div>
 
-<?php require_once '../includes/footer.php'; ?>
+<?php require_once __DIR__ . '/../includes/footer.php'; ?>
